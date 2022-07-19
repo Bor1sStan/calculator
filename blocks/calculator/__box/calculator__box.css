@@ -1,0 +1,9 @@
+.calculator__box {
+   height: 100%;
+   width: 1200px;
+   margin: auto;
+   padding-top: 25px;
+   font-size: 45px;
+   display: grid;
+   grid-template-columns: repeat(4, 300px);
+}

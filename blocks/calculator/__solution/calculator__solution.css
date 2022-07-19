@@ -1,0 +1,12 @@
+.calculator__solution {
+   font-size: 65px;
+   line-height: 95px;
+   border-bottom: 1px red solid;
+   color: white;
+   text-align: end;
+   width: 750px;
+   position:relative;
+   left: 350px;
+   margin: 0;
+   padding-top: 25px;
+}

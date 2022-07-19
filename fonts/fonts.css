@@ -1,0 +1,17 @@
+@font-face {
+   font-family: "Cormorant Infant";
+   src: url(./Cormorant_Infant/CormorantInfant-Regular.ttf) format("truetype");
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Fira Sans Extra Condensed";
+   src: url(./Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Bold.ttf) format("truetype");
+   font-style: bold;
+}
+
+@font-face {
+   font-family: "Raleway";
+   src: url(./Raleway/Raleway-VariableFont_wght.ttf) format("truetype");
+   font-size: normal;
+}

@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./index.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
 
-   <title>Simple JS Calculator</title>
-</head>
-<body class="body">
-   <header class="header">
+    <title>Simple JS Calculator</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">
+        Простой калькулятор на <code>JavaScript'е</code>
+      </h1>
+      <button class="header__button" type="button"></button>
+    </header>
 
-   </header>
-   <main class="main">
-      
-   </main>
-   <footer class="footer">
+    <main class="main">
+      <section class="calculator">
+        <h2 class="calculator__solution">0000</h2>
+        <div class="calculator__box">
+          <button class="calculator__item" type="button">%</button>
+          <button class="calculator__item" type="button">CE</button>
+          <button class="calculator__item" type="button">C</button>
+          <button class="calculator__item_symbol" type="button">&#9003;</button>
 
-   </footer>
-</body>
+          <button class="calculator__item" type="button"><em>&#8543; x</em></button>
+          <button class="calculator__item" type="button"><em>x&#178;</em></button>
+          <button class="calculator__item" type="button"><em>√x</em></button>
+          <button class="calculator__item_symbol" type="button">&#247;</button>
+
+          <button class="calculator__item" type="button">7</button>
+          <button class="calculator__item" type="button">8</button>
+          <button class="calculator__item" type="button">9</button>
+          <button class="calculator__item_symbol" type="button">&#215;</button>
+    
+          <button class="calculator__item" type="button">4</button>
+          <button class="calculator__item" type="button">5</button>
+          <button class="calculator__item" type="button">6</button>
+          <button class="calculator__item_symbol" type="button">-</button>
+
+          <button class="calculator__item" type="button">1</button>
+          <button class="calculator__item" type="button">2</button>
+          <button class="calculator__item" type="button">3</button>
+          <button class="calculator__item_symbol" type="button">&#43;</button>
+            
+          <button class="calculator__item_symbol" type="button">&#8723</button>
+          <button class="calculator__item" type="button">0</button>
+          <button class="calculator__item_symbol" type="button">,</button>
+          <button class="calculator__item_symbol" type="button">=</button>
+        </div>            
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>
